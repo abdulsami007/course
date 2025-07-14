@@ -1,0 +1,46 @@
+<head>
+
+<title>Bootstrap Example</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-color: plum;">
+    <div class="container">
+        <h1 style="color:rgb(24, 238, 238);">Animal Crousal</h1>
+        <div id="myCrousal" class="Crousal slide"data-ride="Crousal" >
+            <ol class="Crousal-indectors">
+                <li data-target="myCrousal"Data-slide-to="0"class="active"></li>
+                <li data-target="myCrousal"Data-slide-to="1"class="active"></li>
+                <li data-target="myCrousal"Data-slide-to="2"class="active"></li>
+                <li data-target="myCrousal"Data-slide-to="3"class="active"></li>
+            </ol>
+        </div>
+    </div> 
+    <div class="crousal-inner">
+        <div class="item active">
+            <img src="tiger.jpg" alt="tiger">
+        </div>
+        <div class="item active">
+            <img src="sami.jpg" alt="sami">
+        </div>
+        <div class="item active">
+            <img src="turtle.jpg" alt="turtle">
+        </div>
+    </div>
+    <a class="right crousal-control" href="mycrousal"Data-slide="prev">
+        <span class="glyphicom glyphicom-chevron left"></span>
+    </a>
+    <a class="right crousal-control" href="mycrousal"Data-slide="next">
+        <span class="glyphicom glyphicom-chevron right"></span>
+    </a>
+    
+</body>
